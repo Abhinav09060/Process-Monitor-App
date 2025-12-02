@@ -1,70 +1,56 @@
-# Getting Started with Create React App
+Process-Monitor-App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Real-time process monitoring dashboard that visualizes CPU, memory, and running processes for quick system diagnostics. Built as part of an Operating Systems project.
 
-## Available Scripts
 
-In the project directory, you can run:
+🖥️ Process Monitor – Real-Time System Dashboard
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+**Process Monitor** is a simple real-time system monitoring tool that helps visualize **CPU usage, memory consumption, and running processes** in one place.  
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+It was built as part of an **Operating Systems** course project to understand how process states and resource usage can be tracked and presented in a user-friendly way.
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+🚀 Features
 
-### `npm run build`
+- 🔄 **Real-time updates** of system statistics  
+- 📊 **CPU usage** overview  
+- 🧠 **Memory / RAM usage** monitoring  
+- 📋 **List of running processes** with details (PID, name, CPU%, memory%)  
+- 🔍 **Search / filter processes** (by name or PID) *(if implemented)*  
+- ⏫ **Sort processes** by CPU, memory, or PID *(if implemented)*  
+- ⚠️ **Basic alerts** for high CPU / memory usage *(if implemented)*  
+- 🎓 Designed to demonstrate OS concepts like **process states, scheduling & resource management**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+> Update/remove the features marked *(if implemented)* to match your actual functionality.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+🧰 Tech Stack
 
-### `npm run eject`
+> Edit this section according to your project.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- **Language:** C / C++ / Python (update as per your code)
+- **Platform:** Windows / Linux
+- **Concepts used:**  
+  - Process management  
+  - System calls / APIs  
+  - Real-time monitoring  
+  - Basic UI / CLI dashboard
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+📂 Project Structure
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Example (update file names as needed):
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```text
+.
+├── src/
+│   ├── process_monitor.c / .cpp / .py
+│   └── utils.[h/cpp]          # Helper functions (if any)
+├── assets/                    # Screenshots or UI assets (optional)
+├── README.md
+└── LICENSE (optional)
+>>>>>>> 91531de42caaaaba78e459fa14b22a1623eb9e1d
